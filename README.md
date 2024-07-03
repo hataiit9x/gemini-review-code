@@ -53,7 +53,7 @@ gemini-review-code -g https://gitlab.com/api/v4 -t glpat-xxxxxxx -a AIzaSyAYNxxx
 
 ### Use in CI
 
-Set the `GITLAB_TOKEN` and `CHATGPT_KEY` variables in GitLab CI/CD, `.gitlab-ci.yml` is as follows:
+Set the `GITLAB_TOKEN` and `API_KEY` variables in GitLab CI/CD, `.gitlab-ci.yml` is as follows:
 
 ```yml
 stages:
