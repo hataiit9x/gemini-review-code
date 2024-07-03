@@ -35,12 +35,6 @@ npm i @hataiit9x/gemini-review-code
 
 ```shell
 Usage: gemini-review-code [options]
-    .option('-g, --gitlab-api-url <string>', 'GitLab API URL', ' https://gitlab.com/api/v4')
-    .option('-t, --gitlab-access-token <string>', 'GitLab Access Token')
-    .option('-a, --api-key <string>', 'Gemini API Key')
-    .option('-p, --project-id <number>', 'GitLab Project ID')
-    .option('-m, --merge-request-id <string>', 'GitLab Merge Request ID')
-    .option('-c, --custom-model <string>', 'Custom Model ID', 'gemini-1.5-flash')
 Options:
   -g, --gitlab-api-url <string>       GitLab API URL (default: " https://gitlab.com/api/v4")
   -t, --gitlab-access-token <string>  GitLab Access Token
